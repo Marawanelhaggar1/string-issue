@@ -5,15 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <form method="post">
-      <input type="text" id="firstNum" value="" />
-      <input type="text" id="lastNum" value="" />
-      <button type="button" id="btn">Result</button>
-    </form>
-    <p id="result"></p>
-
+    <div class="container">
+      <div class="inputs">
+        <div class="left">
+          <label for="firstNum">first number : </label>
+          <input
+            type="text"
+            id="firstNum"
+            placeholder="Enter The First Number"
+          />
+        </div>
+        <div class="right">
+          <label for="lastNum">last number : </label>
+          <input type="text" id="lastNum" placeholder="Enter The Last Number" />
+        </div>
+      </div>
+      <div class="res">
+        <button type="button" id="btn">SUM</button>
+        <p id="result">the Result is :-</p>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

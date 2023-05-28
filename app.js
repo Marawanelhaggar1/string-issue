@@ -8,7 +8,7 @@ const sum = () => {
   let res = parseInt(firstNum) + parseInt(lastNum);
   console.log(res);
 
-  result.innerHTML = res;
+  result.innerHTML = `The Result is :- ${res}`;
   return res;
 };
 
